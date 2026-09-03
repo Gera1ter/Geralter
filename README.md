@@ -27,7 +27,7 @@
 
 ### 📚 Currently Learning
 
-![HTML5](https://img.shields.io/badge/HTML5-111111?style=for-the-badge\&logo=html5\&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-111111?style=for-the-badge\&logo=html5\&logoColor=white)
 
 ### 🎓 Studied
 
