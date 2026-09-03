@@ -11,9 +11,8 @@
 </div>
 
 
-<div align="center"> 
 🖥️ About Me
-</div>
+
 
 
 * <i>🎓 Studying **Applied Informatics**</i>
