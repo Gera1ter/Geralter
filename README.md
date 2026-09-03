@@ -41,13 +41,3 @@
 
 
 ---
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Gera1ter&show_icons=true&hide_border=true&bg_color=00000000&title_color=8B5CF6&icon_color=8B5CF6&text_color=FFFFFF&rank_icon=github" height="180"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gera1ter&layout=compact&hide_border=true&bg_color=00000000&title_color=8B5CF6&text_color=FFFFFF" height="180"/>
-
-</div>
