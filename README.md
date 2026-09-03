@@ -11,15 +11,16 @@
 </div>
 
 
-🖥️ About Me
+## 🖥️ About Me
 
 
 
-* <i>🎓 Studying **Applied Informatics**</i>
-* <i>💻 Interested in **programming & software development**</i>
-* <i>⚙️ Exploring **Minecraft modding and game technologies**</i>
-* <i>🧠 Currently learning and improving my development skills</i>
-* <i>🌐 Always interested in new technologies and interesting projects</i>
+* 🎓 Studying **Applied Informatics**
+* 💻 Interested in **programming & software development**
+* ⚙️ Exploring **Minecraft modding and game technologies**
+* 🧠 Currently learning and improving my development skills
+* 🌐 Always interested in new technologies and interesting projects
+
 
 ---
 
@@ -27,16 +28,17 @@
 
 ### 📚 Currently Learning
 
-![HTML](https://img.shields.io/badge/HTML-111111?style=for-the-badge\&logo=html5\&logoColor=white)
+[![HTML5](https://img.shields.io/badge/HTML5-111111?style=for-the-badge\&logo=html5\&logoColor=E34F26)](https://www.w3.org/standards/history/html/)
 
 ### 🎓 Studied
 
-![C++](https://img.shields.io/badge/C%2B%2B-111111?style=for-the-badge\&logo=cplusplus\&logoColor=white)
+[![C++](https://img.shields.io/badge/C%2B%2B-111111?style=for-the-badge\&logo=cplusplus\&logoColor=00599C)](https://isocpp.org/wiki/faq/big-picture)
 
 ### 🔜 Coming Soon
 
-![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge\&logo=javascript\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-111111?style=for-the-badge\&logo=python\&logoColor=white)
+[![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge\&logo=javascript\&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Python](https://img.shields.io/badge/Python-111111?style=for-the-badge\&logo=python\&logoColor=3776AB)](https://docs.python.org/3/)
+
 
 ---
 
