@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="360" viewBox="0 0 920 360" role="img" aria-labelledby="title desc">
+  <title id="title">Geralter Neon-Arcade</title>
+  <desc id="desc">Animated neon arcade preview with a cyan player and falling purple and pink obstacles.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070712"/>
+      <stop offset="0.55" stop-color="#0b0b18"/>
+      <stop offset="1" stop-color="#120817"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="glowCyan" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowPink" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#22d3ee" stroke-opacity=".09"/>
+    </pattern>
+    <clipPath id="screenClip"><rect x="250" y="78" width="420" height="220" rx="12"/></clipPath>
+  </defs>
+
+  <rect width="920" height="360" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="918" height="358" rx="19" fill="none" stroke="#22d3ee" stroke-opacity=".35"/>
+
+  <text x="42" y="58" fill="#e5e7eb" font-family="monospace" font-size="23" font-weight="700" letter-spacing="4">NEON-ARCADE</text>
+  <text x="44" y="82" fill="#67e8f9" font-family="monospace" font-size="11" letter-spacing="2">GERALTER // AUTO PLAY MODE</text>
+
+  <rect x="250" y="78" width="420" height="220" rx="12" fill="#05050d" stroke="#22d3ee" stroke-opacity=".45"/>
+  <rect x="250" y="78" width="420" height="220" rx="12" fill="url(#grid)"/>
+  <g clip-path="url(#screenClip)">
+    <!-- falling obstacles -->
+    <g filter="url(#glowPink)">
+      <rect x="295" y="-35" width="22" height="22" fill="#a855f7">
+        <animate attributeName="y" values="-35;300" dur="4.6s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="295;520;420;295" dur="4.6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="500" y="-70" width="27" height="27" fill="#ec4899">
+        <animate attributeName="y" values="-70;300" dur="5.2s" begin="-.8s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="500;390;585;500" dur="5.2s" begin="-.8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="610" y="-20" width="19" height="19" fill="#a855f7">
+        <animate attributeName="y" values="-20;300" dur="4.1s" begin="-1.7s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="610;545;355;610" dur="4.1s" begin="-1.7s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="395" y="-50" width="24" height="24" fill="#ec4899">
+        <animate attributeName="y" values="-50;300" dur="5.7s" begin="-2.5s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="395;600;450;395" dur="5.7s" begin="-2.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- player -->
+    <g filter="url(#glowCyan)">
+      <polygon points="460,260 447,288 473,288" fill="url(#cyan)">
+        <animateTransform attributeName="transform" type="translate"
+          values="0 0; -95 0; 55 0; -35 0; 0 0" dur="5.8s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+
+    <!-- scanline -->
+    <rect x="250" y="78" width="420" height="3" fill="#67e8f9" opacity=".13">
+      <animate attributeName="y" values="78;295;78" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text x="270" y="101" fill="#67e8f9" font-family="monospace" font-size="10" letter-spacing="2">AUTO</text>
+  <text x="585" y="101" fill="#9ca3af" font-family="monospace" font-size="10">ONLINE</text>
+
+  <g font-family="monospace">
+    <text x="705" y="122" fill="#9ca3af" font-size="11" letter-spacing="2">STATUS</text>
+    <text x="705" y="151" fill="#67e8f9" font-size="19" font-weight="700">RUNNING</text>
+    <text x="705" y="190" fill="#9ca3af" font-size="11" letter-spacing="2">SCORE</text>
+    <text x="705" y="218" fill="#e5e7eb" font-size="25" font-weight="700">
+      <tspan>0000</tspan>
+      <animate attributeName="opacity" values="1;.45;1" dur="1.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="705" y="258" fill="#9ca3af" font-size="11" letter-spacing="2">PATTERN</text>
+    <text x="705" y="282" fill="#ec4899" font-size="16">RANDOM</text>
+  </g>
+
+  <rect x="250" y="316" width="420" height="24" rx="12" fill="#22d3ee" fill-opacity=".06" stroke="#22d3ee" stroke-opacity=".25"/>
+  <text x="460" y="332" text-anchor="middle" fill="#67e8f9" font-family="monospace" font-size="10" letter-spacing="2">CLICK THE PREVIEW TO TAKE CONTROL</text>
+
+  <text x="42" y="328" fill="#6b7280" font-family="monospace" font-size="10" letter-spacing="1.5">HTML / CSS / JAVASCRIPT • GITHUB PAGES</text>
+</svg>
