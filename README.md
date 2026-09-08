@@ -24,7 +24,7 @@
 <div align="center">
 
 <a href="https://gera1ter.github.io/Neon-Arcade/">
-  <img src="./assets/neon-arcade-widget.svg" width="920" alt="Neon-Arcade — click to play">
+  <img src="./neon-arcade-widget.svg" width="920" alt="Neon-Arcade — click to play">
 </a>
 
 **[ ▶ PLAY NEON-ARCADE ](https://gera1ter.github.io/Neon-Arcade/)**
